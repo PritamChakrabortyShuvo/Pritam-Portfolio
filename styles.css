@@ -506,8 +506,7 @@ section {
   border: 1px solid rgba(0, 188, 212, 0.3);
 }
 
-/* Skills Section  */
-.skills-section {
+Skills Section .skills-section {
   background: linear-gradient(135deg, #111111 0%, #000000 100%);
 }
 
