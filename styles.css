@@ -506,7 +506,7 @@ section {
   border: 1px solid rgba(0, 188, 212, 0.3);
 }
 
-/* Skills Section */
+/* Skills Section  */
 .skills-section {
   background: linear-gradient(135deg, #111111 0%, #000000 100%);
 }
@@ -514,6 +514,7 @@ section {
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
   gap: 2rem;
 }
 
