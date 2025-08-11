@@ -888,23 +888,63 @@ section {
   color: var(--light-cyan);
   transform: translateX(5px);
 }
+/* CV Download Section */
+.cv-download-section {
+  padding: 50px 0;
+  background: linear-gradient(135deg, #0c0c0c 0%, #000000 100%);
+  /* background-color: #000000; Black background */
+  color: #ffffff; /* White text for contrast */
+}
 
+.cv-download-section .container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cv-download-section .section-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #00bcd4; /* Cyan color for section title */
+}
+
+.cv-download-section .cv-download-description {
+  font-size: 1.1em;
+  color: #ffffff; /* White text */
+  margin-bottom: 30px;
+}
+
+.cv-download-section .download-btn {
+  background-color: #00bcd4; /* Cyan color for the button */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.cv-download-section .download-btn:hover {
+  background-color: #0097a7; /* Slightly darker Cyan on hover */
+}
 /* Contact Section */
 .contact-section {
   background: #000000;
+  align-items: center;
 }
 
 .contact-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  /* grid-template-columns: 1fr 1fr; */
   gap: 4rem;
-  align-items: start;
+  justify-content: center;
 }
 
 .contact-info h3 {
   font-size: 2rem;
   color: var(--primary-cyan);
   margin-bottom: 1rem;
+  align-items: center;
 }
 
 .contact-info p {
@@ -1025,45 +1065,6 @@ section {
   max-height: 80%; */
   box-shadow: 0 20px 40px rgba(0, 188, 212, 0.3);
   text-align: center;
-}
-/* CV Download Section */
-.cv-download-section {
-  padding: 50px 0;
-  background: linear-gradient(135deg, #0c0c0c 0%, #000000 100%);
-  /* background-color: #000000; Black background */
-  color: #ffffff; /* White text for contrast */
-}
-
-.cv-download-section .container {
-  max-width: 900px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.cv-download-section .section-title {
-  font-size: 2em;
-  margin-bottom: 20px;
-  color: #00bcd4; /* Cyan color for section title */
-}
-
-.cv-download-section .cv-download-description {
-  font-size: 1.1em;
-  color: #ffffff; /* White text */
-  margin-bottom: 30px;
-}
-
-.cv-download-section .download-btn {
-  background-color: #00bcd4; /* Cyan color for the button */
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.1em;
-  cursor: pointer;
-}
-
-.cv-download-section .download-btn:hover {
-  background-color: #0097a7; /* Slightly darker Cyan on hover */
 }
 
 .modal-content img {
