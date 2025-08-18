@@ -94,8 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
     "docker-cert": "Certificates/Docker.jpeg?auto=compress&cs=tinysrgb&w=800",
     "datacamp-cert":
       "Certificates/Datacamp.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "linux-cert":
-      "Certificates/KodeKloud-Linux.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "linux-cert": "Certificates/Linux-01.jpeg?auto=compress&cs=tinysrgb&w=800",
     "oracle-2-cert":
       "Certificates/Oracle-02.jpeg?auto=compress&cs=tinysrgb&w=800",
   };
